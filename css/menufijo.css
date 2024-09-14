@@ -1,3 +1,4 @@
+/* styles.css */
 ul {
     list-style-type: none; /* Elimina las viñetas de la lista */
     margin: 0;
@@ -22,4 +23,3 @@ a {
 a:hover {
     background-color: #111; /* Color de fondo al pasar el ratón */
 }
-
