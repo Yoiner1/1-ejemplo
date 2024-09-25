@@ -5,11 +5,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>1-ejemplo</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="">
 </head>
 <body>
     <header>
         <nav> 
             <ul>
+                <div class="menu-icon" id="menu-icon">
+                    &#9776;
+                </div> 
+                <div>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                        }
+                
+                        header {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 10px 20px;
+                            background-color: #333;
+                            color: white;
+                        }
+                
+                        .menu-icon {
+                            display: none;
+                            font-size: 50px; /* Cambia el tamaño aquí */
+                            color: white; /* Cambia el color aquí */
+                            cursor: pointer;
+                        }
+                
+                        .nav-links {
+                            list-style: none;
+                            display: flex;
+                        }
+                
+                        .nav-links li {
+                            margin: 0 15px;
+                        }
+                
+                        .nav-links a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                
+                        @media (max-width: 858px) {
+                            .menu-icon {
+                                display: block;
+                            }
+                
+                            .nav-links {
+                                display: none;
+                                flex-direction: column;
+                                width: 100%;
+                                text-align: center;
+                            }
+                
+                            .nav-links li {
+                                margin: 10px 0;
+                            }
+                
+                            .nav-links.active {
+                                display: flex;
+                            }
+                        }
+                    </style>
+                </div>
                 <li><a href="index.html">inicio</a></li>
                 <li><a href="servicios.html">servicios</a></li>
                 <li><a href="contactos.html">contactos</a></li>
