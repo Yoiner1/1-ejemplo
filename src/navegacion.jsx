@@ -16,9 +16,9 @@ return (
   indicatorColor="secondary"
   aria-label="secondary tabs example"
 >
-  <Tab value="one" label="Item One" />
-  <Tab value="two" label="Item Two" />
-  <Tab value="three" label="Item Three" />
+  <Tab value="one" label="Inicio" />
+  <Tab value="two" label="Acerca de" />
+  <Tab value="three" label="Contacto" />
 </Tabs>
   )
 }
